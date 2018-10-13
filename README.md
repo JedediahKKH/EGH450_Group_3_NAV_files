@@ -9,4 +9,4 @@ Repository for Navigation
 
 
 
-process has died [pid 1378]
+process has died [pid 1378]-> path planner should only exist in  src/egh450_path_planning subroot
