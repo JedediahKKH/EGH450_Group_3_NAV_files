@@ -1,0 +1,24 @@
+roscore
+-> new terminal
+roslaunch environment.launch
+-> new terminal
+python ~/catkin_ws/src/egh450_path_planning/scripts/node_expander.py
+-> new terminal
+roslaunch ~/catkin_ws/launch/px4.launch
+-> new terminal
+roslaunch ~/catkin_ws/launch/control.launch
+->new terminal
+roslaunch ~/catkin_ws/
+-> new terminal
+rviz
+-> new terminal
+rqt
+set mode to OFFBOARD
+Ensure Drone is Powered and Safety is ARMED
+Refrash settings
+Refresh Camera Feed
+-> new terminal
+Image code
+-> new terminal
+rosbag /camera /pose
+-> new terminal
