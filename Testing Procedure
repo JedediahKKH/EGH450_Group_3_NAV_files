@@ -22,3 +22,14 @@ Image code
 -> new terminal
 rosbag /camera /pose
 -> new terminal
+
+Safety DISARM
+Write to EEPROM
+ARM Drone
+
+Prepare to DISARM
+DISARM
+
+close rosbag
+close px4
+close control
