@@ -1,3 +1,8 @@
+fix the planner_demo.py <- delete from /egh450_path_planning/scripts and edit the one in /egh450_path_planning/src/egh450_path_planning/scripts
+This will still return the error<- ask kye
+
+else, run roslaunch guidance.launch at line 16 instead
+
 roscore
 -> new terminal
 roslaunch environment.launch
@@ -8,7 +13,7 @@ roslaunch ~/catkin_ws/launch/px4.launch
 -> new terminal
 roslaunch ~/catkin_ws/launch/control.launch
 ->new terminal
-roslaunch ~/catkin_ws/
+roslaunch ~/catkin_ws/launch/planner_demo.launch wp_name:=custom_waypoints
 -> new terminal
 rviz
 -> new terminal
